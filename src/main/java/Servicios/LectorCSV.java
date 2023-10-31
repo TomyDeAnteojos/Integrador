@@ -20,7 +20,7 @@ public class LectorCSV {
     private List<LineasCsvInscripcion> lineasArchivo;
 
     public LectorCSV(String ruta) {
-        this.rutaArchivo = "src\\main\\java\\resources\\inscripcion.csv";
+        this.rutaArchivo = ruta;
         lineasArchivo = new ArrayList<>();
     }
 
